@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "首页笔记导出",
+  "version": "1.0",
+  "description": "导出首页笔记为CSV文件",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
